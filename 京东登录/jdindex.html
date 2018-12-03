@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东-欢迎登录</title>
+    <link rel="icon" href="img/favicon.ico"  type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="jdindex.css">
+</head>
+<body>
+<div class="denglu">
+<div class="header">
+    <div class="logo">
+        <a href="">
+            <img src="img/logo.png" alt="京东" width="170" height="60">
+        </a>
+
+    </div>
+    <a href=""   class="link"><b></b>登录页面，调查问卷</a>
+</div>
+<div class="content">
+    <div class="send">
+    <div class="wrapper">
+        <i></i>
+        <p>依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版<a href="" class="back">《京东隐私政策》</a>已上线，将更有利于保护您的个人隐私。</p>
+    </div>
+    </div>
+        <div class="banne">
+            <div class="bgtu">
+                <div class="bande">
+                    <div class="iwm">
+                        <div class="iwmsp">
+                            <div class="spwid">
+                                <div class="spwdio">
+<i></i>
+                                    <p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p>                          </div>
+
+                            </div>
+
+                        </div>
+                        <div class="butleft">
+                            <a href="">扫码登录</a>
+                        </div>
+                        <div class="butrigt">
+                            <a href="">账户登录</a>
+                        </div>
+
+                        <div class="center" id="ewmm">
+                            <div class="cotar">
+                                <div class="centiwm" id="ewm_in">
+                                    <img src="img/show.png" alt="">
+                                </div>
+                                <div class="incang" id="incang">
+                                    <img src="img/phone-orange.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ulcen">
+                            <ul>
+                                <li class="fore1">
+                                    <span>打开</span>
+                                    <a href="">
+                                        <span class="red">手机京东</span></a>
+                                </li>
+                                <li>扫描二维码</li>
+                            </ul>
+                        </div>
+                        <div class="coagent ">
+                            <ul>
+                                <li><b></b><em>免输入</em></li>
+                                <li><b class="faster"></b><em>更快&nbsp;</em></li>
+                                <li><b class="moresafe"></b><em>更安全</em></li>
+                            </ul>
+
+
+                        </div>
+                        <div class="coaent">
+                            <div class="codi">
+                            <ul>
+                                <li><b></b>
+                                    <a href="">QQ</a>
+                                    <span class="line">|</span>
+                                </li>
+                                <li>
+                                    <b class="weixin"></b>
+                                    <a href="">微信</a>
+                                </li>
+                                <li class="riit">
+                                    <b></b>
+                                    <a href="">立即注册</a>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+</div>
+
+<div class="footer">
+<div class="links">
+    <a href=""> 关于我们<span>|</span></a>
+
+    <a href=""> 联系我们<span>|</span></a>
+    <a href="">人才招聘<span>|</span></a>
+    <a href=""> 商家入驻<span>|</span></a>
+    <a href=""> 广告服务<span>|</span></a>
+    <a href=""> 手机京东<span>|</span></a>
+    <a  href=""> 友情链接<span>|</span></a>
+    <a  href="">销售联盟<span>|</span></a>
+    <a href="" >京东社区<span>|</span></a>
+    <a href="" >京东公益<span>|</span></a>
+    <a href="" >English Site</a>
+</div>
+<div class="copyright">
+    Copyright&nbsp;&copy;&nbsp;2004-2018&nbsp;&nbsp;京东JD.com&nbsp;版权所有
+</div>
+</div>
+</div>
+</body>
+</html>
+<script src="animate.js"></script>
+<script>
+    let ewmm = document.getElementById('ewmm');
+    let ewm_in = document.getElementById('ewm_in');
+    let incang = document.getElementById('incang');
+    function ewmMove() {
+        setTimeout(()=>{
+            animate(ewm_in,{left:-60},200);
+            animate(incang,{opacity:1},300)
+        },200);
+
+        ewmm.onmouseenter =function () {
+            animate(ewm_in,{left:-60},200);
+
+            animate(incang,{opacity:1},300)
+        };
+        ewmm.onmouseleave =function () {
+            animate(ewm_in,{left:0},200);
+
+            animate(incang,{opacity:0},0)
+
+        }
+    }
+    ewmMove()
+</script>

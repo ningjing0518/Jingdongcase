@@ -1,0 +1,200 @@
+/*手机通讯*/
+/*包裹自定义分页器的div的位置等CSS样式*/
+.dian.swiper-pagination-custom {
+    top: 330px;
+    left: 50%;
+    width: auto;
+    height: 6px;
+}
+
+/*自定义分页器的样式，这个你自己想要什么样子自己写*/
+.swiper-pagination-customs {
+    width: 6px;
+    height: 6px;
+    border:2px solid #b9beba;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+}
+
+/*自定义分页器激活时的样式表现*/
+.swiper-pagination-customs-active {
+    border:2px solid #eb3436;
+    background: #eb3436;
+    box-shadow: 0 0 0 3px #fdd9dd;
+}
+
+
+/*鞋包*/
+/*包裹自定义分页器的div的位置等CSS样式*/
+.dian1.swiper-pagination-custom {
+    top: 330px;
+    left: 50%;
+    width: 100%;
+    height: 6px;
+}
+
+.swiper-pagination-customs-dian1 {
+    width: 6px;
+    height: 6px;
+    border:2px solid #b9beba;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+}
+
+.swiper-pagination-customs-dian1-active {
+    border:2px solid #eb3436;
+    background: #eb3436;
+    box-shadow: 0 0 0 3px #fdd9dd;
+}
+
+/*白酒*/
+
+.bj_i.swiper-pagination-custom {
+    top: 330px;
+    left: 50%;
+    width: 100%;
+    height: 6px;
+}
+
+.swiper-pagination-customs-bj_i {
+    width: 6px;
+    height: 6px;
+    border:2px solid #b9beba;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+}
+
+.swiper-pagination-customs-bj_i-active {
+    border:2px solid #eb3436;
+    background: #eb3436;
+    box-shadow: 0 0 0 3px #fdd9dd;
+}
+
+/*海鲜水产*/
+
+.xh_i.swiper-pagination-custom {
+    top: 330px;
+    left: 50%;
+    width: 100%;
+    height: 6px;
+}
+
+.swiper-pagination-customs-xh_i {
+    width: 6px;
+    height: 6px;
+    border:2px solid #b9beba;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+}
+
+.swiper-pagination-customs-xh_i-active {
+    border:2px solid #eb3436;
+    background: #eb3436;
+    box-shadow: 0 0 0 3px #fdd9dd;
+}
+
+/*厨房小店*/
+.cf_i.swiper-pagination-custom {
+    top: 330px;
+    left: 50%;
+    width: 100%;
+    height: 6px;
+}
+
+.swiper-pagination-customs-cf_i {
+    width: 6px;
+    height: 6px;
+    border:2px solid #b9beba;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+}
+
+.swiper-pagination-customs-cf_i-active {
+    border:2px solid #eb3436;
+    background: #eb3436;
+    box-shadow: 0 0 0 3px #fdd9dd;
+}
+
+
+/*会买专辑*/
+/*包裹自定义分页器的div的位置等CSS样式*/
+.con_em.swiper-pagination-custom {
+    bottom: 20px;
+    width: auto;
+    left: 42%;
+    height: 6px;
+}
+
+/*自定义分页器的样式，这个你自己想要什么样子自己写*/
+.swiper-pagination-customs1 {
+    width: 6px;
+    height: 6px;
+    border:2px solid #b9beba;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+}
+
+/*自定义分页器激活时的样式表现*/
+.swiper-pagination-customs1-active {
+    border:2px solid #eb3436;
+    background: #eb3436;
+    box-shadow: 0 0 0 3px #fdd9dd;
+}
+
+
+/*last领券中心*/
+/*包裹自定义分页器的div的位置等CSS样式*/
+.last_em.swiper-pagination-custom {
+     bottom: -15px;
+     width: auto;
+     left: 42%;
+     height: 6px;
+ }
+
+/*自定义分页器的样式，这个你自己想要什么样子自己写*/
+.swiper-pagination-customs2 {
+    width: 6px;
+    height: 6px;
+    border:2px solid #b9beba;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+}
+
+/*自定义分页器激活时的样式表现*/
+.swiper-pagination-customs2-active {
+    border:2px solid #eb3436;
+    background: #eb3436;
+    box-shadow: 0 0 0 3px #fdd9dd;
+}
+
+
+/*觅me*/
+
+.mime_em.swiper-pagination-custom {
+   bottom: 20px;
+    left: 42%;
+    width: 100%;
+    height: 6px;
+}
+
+.swiper-pagination-customs-mime_em {
+    width: 6px;
+    height: 6px;
+    border:2px solid #b9beba;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+}
+
+.swiper-pagination-customs-mime_em-active {
+    border:2px solid #eb3436;
+    background: #eb3436;
+    box-shadow: 0 0 0 3px #fdd9dd;
+}
